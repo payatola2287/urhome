@@ -4,7 +4,7 @@
  * Description: Custom code that need to be properly integrated with Wordpress are in here. DO NOT DEACTIVATE THIS PLUGIN.
  * Author: Paolo Gallardo
  * Author URI: https://github.com/payatola2287
- * Version: 1.0 
+ * Version: 1.0
  ***/
 
  require_once('inc/_/plugin-update-checker/plugin-update-checker.php');
