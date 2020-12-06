@@ -7,7 +7,7 @@
  * Version: 1.0
  ***/
 
- require_once('inc/_/plugin-update-checker/plugin-update-checker.php');
+ require_once('inc/_vendor/plugin-update-checker/plugin-update-checker.php');
  $updateChecker = Puc_v4_Factory::buildUpdateChecker(
      'https://github.com/payatola2287/urhome',
      __FILE__,
@@ -18,7 +18,7 @@
  function add_css(){
      wp_enqueue_style( 
          'bootstrap',
-         plugin_dir_url( __FILE__ ) . 'inc/_/bootstrap/bootstrap.css'
+         plugin_dir_url( __FILE__ ) . 'inc/_vendor/bootstrap/bootstrap.css'
      );
  }
  add_action( 'wp_enqueue_scripts','add_css' );
